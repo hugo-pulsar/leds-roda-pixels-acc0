@@ -1,6 +1,6 @@
 let acc0 = 0
 basic.showIcon(IconNames.Triangle)
-let strip = neopixel.create(DigitalPin.P0, 8, NeoPixelMode.RGB)
+let strip = neopixel.create(DigitalPin.P0, 32, NeoPixelMode.RGB)
 let max_acc_tot = 2500
 let Lum = 30
 let pulse_speed = 0.5
